@@ -12,6 +12,12 @@ namespace Library
         public string Author;
         public string ISBN;
 
+        public Book(string title, string author, string isbn)
+        {
+            Title = title;
+            Author = author;
+            ISBN = isbn;
+        }
 
         public void DisplayInfo()
         {
